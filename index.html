@@ -7,13 +7,7 @@
     <title>HW03</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="./css/modern-normalize.min.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -37,9 +31,17 @@
         </nav>
         <div class="contact-menu">
           <a class="contact-header" href="mailto:info@devstudio.com">
+            <svg class="contact-icon" width="16" height="12">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>
             info@devstudio.com
           </a>
-          <a class="contact-header" href="tel:+48111111111">+48 111 111 111</a>
+          <a class="contact-header" href="tel:+48111111111"
+            ><svg class="contact-icon" width="10" height="16">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>
+            +48 111 111 111</a
+          >
         </div>
       </div>
     </header>
@@ -54,6 +56,9 @@
         <div class="container">
           <ul class="list-one">
             <li>
+              <svg class="lorem-icon" width="270" height="120">
+                <use href="./images/icons.svg#icon-group-1"></use>
+              </svg>
               <b>LOREM IPSUM</b>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -61,6 +66,9 @@
               </p>
             </li>
             <li>
+              <svg class="lorem-icon" width="270" height="120">
+                <use href="./images/icons.svg#icon-group-2"></use>
+              </svg>
               <b>LOREM IPSUM</b>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -68,6 +76,9 @@
               </p>
             </li>
             <li>
+              <svg class="lorem-icon" width="270" height="120">
+                <use href="./images/icons.svg#icon-group-3"></use>
+              </svg>
               <b>LOREM IPSUM</b>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -75,6 +86,9 @@
               </p>
             </li>
             <li>
+              <svg class="lorem-icon" width="270" height="120">
+                <use href="./images/icons.svg#icon-group-4"></use>
+              </svg>
               <b>LOREM IPSUM</b>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -117,7 +131,7 @@
           <h2 class="headline">Nasz zespół</h2>
           <ul class="team-list">
             <li>
-              <figure>
+              <figure class="team-image-display">
                 <img
                   src="./images/agencja/man1.jpg"
                   alt="portret John Doe"
@@ -129,6 +143,28 @@
                   <p>
                     <span>Product Designer </span>
                   </p>
+                  <ul class="social-links-team">
+                    <li class="social-links-team-space">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </li>
+                    <li class="social-links-team-space">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </li>
+                    <li class="social-links-team-space">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </li>
+                    <li class="social-links-team-space">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </li>
+                  </ul>
                 </figcaption>
               </figure>
             </li>
@@ -145,6 +181,28 @@
                   <p>
                     <span>Frontend Developer</span>
                   </p>
+                  <ul class="social-links-team">
+                    <li class="social-links-team-space">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </li>
+                    <li class="social-links-team-space">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </li>
+                    <li class="social-links-team-space">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </li>
+                    <li class="social-links-team-space">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </li>
+                  </ul>
                 </figcaption>
               </figure>
             </li>
@@ -161,6 +219,28 @@
                   <p>
                     <span>Marketing</span>
                   </p>
+                  <ul class="social-links-team">
+                    <li class="social-links-team-space">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </li>
+                    <li class="social-links-team-space">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </li>
+                    <li class="social-links-team-space">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </li>
+                    <li class="social-links-team-space">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </li>
+                  </ul>
                 </figcaption>
               </figure>
             </li>
@@ -177,25 +257,114 @@
                   <p>
                     <span>UI Designer</span>
                   </p>
+                  <ul class="social-links-team">
+                    <li class="social-links-team-space">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </li>
+                    <li class="social-links-team-space">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </li>
+                    <li class="social-links-team-space">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </li>
+                    <li class="social-links-team-space">
+                      <svg class="social-icon" width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </li>
+                  </ul>
                 </figcaption>
               </figure>
             </li>
           </ul>
         </div>
       </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="headline">Nasz zespół</h2>
+          <ul class="clients-logos">
+            <li class="logo-box">
+              <svg class="client-logo" width="106" height="60">
+                <use href="./images/icons.svg#icon-logo-1"></use>
+              </svg>
+            </li>
+            <li class="logo-box">
+              <svg class="client-logo" width="106" height="60">
+                <use href="./images/icons.svg#icon-logo-2"></use>
+              </svg>
+            </li>
+            <li class="logo-box">
+              <svg class="client-logo" width="106" height="60">
+                <use href="./images/icons.svg#icon-logo-3"></use>
+              </svg>
+            </li>
+            <li class="logo-box">
+              <svg class="client-logo" width="106" height="60">
+                <use href="./images/icons.svg#icon-logo-4"></use>
+              </svg>
+            </li>
+            <li class="logo-box">
+              <svg class="client-logo" width="106" height="60">
+                <use href="./images/icons.svg#icon-logo-5"></use>
+              </svg>
+            </li>
+            <li class="logo-box">
+              <svg class="client-logo" width="106" height="60">
+                <use href="./images/icons.svg#icon-logo-6"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <footer class="footer-section">
-      <div class="container">
-        <a class="footer-logo" href="index.html">Web<span>Studio </span></a>
-        <address>
-          <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+      <div class="container footer-container">
+        <div class="footer-block-1">
+          <a class="footer-logo" href="index.html">Web<span>Studio </span></a>
+          <address>
+            <p>m. Warszawa, Aleje Jerozolimskie 21</p>
 
-          <a class="contact-footer" href="mailto:info@devstudio.com">
-            info@devstudio.com
-          </a>
+            <a class="contact-footer" href="mailto:info@devstudio.com">
+              info@devstudio.com
+            </a>
 
-          <a class="contact-footer" href="tel:+48111111111">+48 111 111 111</a>
-        </address>
+            <a class="contact-footer" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </address>
+        </div>
+
+        <div class="footer-block-2">
+          <h3>DOŁĄCZ DO NAS</h3>
+          <ul class="social-links-team">
+            <li class="social-links-team-space">
+              <svg class="social-icon-footer" width="20" height="20">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </li>
+            <li class="social-links-team-space">
+              <svg class="social-icon-footer" width="20" height="20">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </li>
+            <li class="social-links-team-space">
+              <svg class="social-icon-footer" width="20" height="20">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </li>
+            <li class="social-links-team-space">
+              <svg class="social-icon-footer" width="20" height="20">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
